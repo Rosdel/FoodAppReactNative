@@ -50,7 +50,7 @@ const renderCategoryItem = ({item}) => {
                 <Text style={styles.categoryText}>Categories</Text>
                 <View style={styles.categoryListWrapper}>
                     <FlatList
-                        data={categoryData} 
+                        data={categoryData}
                         renderItem={renderCategoryItem}
                         keyExtractor={item => item.id}
                         horizontal={true}
